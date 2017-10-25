@@ -1,0 +1,128 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="anim_dialog">
+        <item name="android:windowEnterAnimation">@anim/enter</item>
+        <item name="android:windowExitAnimation">@anim/exit</item>
+    </style>
+
+    <style name="dialogT1" parent="android:Theme.Holo.Light.Dialog">
+        <item name="android:windowAnimationStyle">@style/anim_dialog</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="dialogT2" parent="android:Theme.Holo.Dialog">
+        <item name="android:windowAnimationStyle">@style/anim_dialog</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="dialogT3" parent="android:Theme.DeviceDefault.Dialog">
+        <item name="android:windowAnimationStyle">@style/anim_dialog</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="dialogT4" parent="android:Theme.DeviceDefault.Light.Dialog">
+        <item name="android:windowAnimationStyle">@style/anim_dialog</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="dialogT5" parent="Animation.AppCompat.Dialog">
+        <item name="android:windowAnimationStyle">@style/anim_dialog</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="dialogT6" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowAnimationStyle">@style/anim_dialog</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="dialogT7" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowAnimationStyle">@style/anim_dialog</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="dialogT8" parent="Theme.AppCompat.DayNight.Dialog">
+        <item name="android:windowAnimationStyle">@style/anim_dialog</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="dialogT9" parent="AlertDialog.AppCompat">
+        <item name="android:windowAnimationStyle">@style/anim_dialog</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="dialogT10" parent="ThemeOverlay.AppCompat.Dialog.Alert">
+        <item name="android:windowAnimationStyle">@style/anim_dialog</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+
+    <style name="dialog1" parent="android:Theme.Holo.Light.Dialog">
+        <item name="android:windowBackground">@color/android:transparent</item>
+        <item name="android:windowAnimationStyle">@style/anim_dialog</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="dialog2" parent="android:Theme.Holo.Dialog">
+        <item name="android:windowBackground">@color/android:transparent</item>
+        <item name="android:windowAnimationStyle">@style/anim_dialog</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="dialog3" parent="android:Theme.DeviceDefault.Dialog">
+        <item name="android:windowBackground">@color/android:transparent</item>
+        <item name="android:windowAnimationStyle">@style/anim_dialog</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="dialog4" parent="android:Theme.DeviceDefault.Light.Dialog">
+        <item name="android:windowBackground">@color/android:transparent</item>
+        <item name="android:windowAnimationStyle">@style/anim_dialog</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="dialog5" parent="Animation.AppCompat.Dialog">
+        <item name="android:windowBackground">@color/android:transparent</item>
+        <item name="android:windowAnimationStyle">@style/anim_dialog</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="dialog6" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@color/android:transparent</item>
+        <item name="android:windowAnimationStyle">@style/anim_dialog</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="dialog7" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowBackground">@color/android:transparent</item>
+        <item name="android:windowAnimationStyle">@style/anim_dialog</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="dialog8" parent="Theme.AppCompat.DayNight.Dialog">
+        <item name="android:windowBackground">@color/android:transparent</item>
+        <item name="android:windowAnimationStyle">@style/anim_dialog</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="dialog9" parent="AlertDialog.AppCompat">
+        <item name="android:windowBackground">@color/android:transparent</item>
+        <item name="android:windowAnimationStyle">@style/anim_dialog</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="dialog10" parent="ThemeOverlay.AppCompat.Dialog.Alert">
+        <item name="android:windowBackground">@color/android:transparent</item>
+        <item name="android:windowAnimationStyle">@style/anim_dialog</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+
+</resources>

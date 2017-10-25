@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.study.datepickerdialogdemo.MainActivity">
+
+
+    <TextView
+        android:id="@+id/tv_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#aaaaaa"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="返回"
+        android:textSize="18sp"/>
+
+
+    <TextView
+        android:id="@+id/tv_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#aaaaaa"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="文本"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#aaaaaa"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Theme.Holo.Light.Dialog"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tv_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#aaaaaa"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Theme.Holo.Dialog"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tv_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#aaaaaa"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Theme.DeviceDefault.Dialog"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tv_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#aaaaaa"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Theme.DeviceDefault.Light.Dialog"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tv_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#aaaaaa"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Animation.AppCompat.Dialog"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tv_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#aaaaaa"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Theme.AppCompat.Dialog"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tv_7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#aaaaaa"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Theme.AppCompat.Light.Dialog"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tv_8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#aaaaaa"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Theme.AppCompat.DayNight.Dialog"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tv_9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#aaaaaa"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="AlertDialog.AppCompat"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tv_10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#aaaaaa"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="ThemeOverlay.AppCompat.Dialog.Alert"
+        android:textSize="18sp"/>
+</LinearLayout>
